@@ -4,6 +4,7 @@ import Loader from "./components/loader";
 
 const fetchMessage = async () => {
   const response = await fetch(`http://localhost:3000/`);
+
   return response.text();
 };
 
